@@ -10,3 +10,5 @@
 [Kang ByungJun](https://github.com/bangdori) <br>
 
 [Lee TaeHoon](https://github.com/Tentennball) <br>
+
+[Woo Jaemin](https://github.com/WooJJam) <br>
