@@ -12,3 +12,5 @@
 [Lee TaeHoon](https://github.com/Tentennball) <br>
 
 [Woo Jaemin](https://github.com/WooJJam) <br>
+
+[Ahn SuJin](https://github.com/ssuzyn) <br>
