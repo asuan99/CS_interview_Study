@@ -3,14 +3,16 @@
 
 
 ## Participant
-[Lee Wonho](https://github.com/asuan99) <br>
+[Lee Wonho](https://github.com/asuan99), 
+[Choe Eunseong](https://github.com/ches0703), 
+[Kang ByungJun](https://github.com/bangdori), 
+[Lee TaeHoon](https://github.com/Tentennball), 
+[Woo Jaemin](https://github.com/WooJJam), 
+[Ahn SuJin](https://github.com/ssuzyn), 
+[JungMunGyu](https://github.com/JungMunGyu), 
+[Cho YuJeong](https://github.com/hiyoojeong),
+[Moon yeju](https://github.com/moonyeju)
 
-[Choe Eunseong](https://github.com/ches0703) <br>
-
-[Kang ByungJun](https://github.com/bangdori) <br>
-
-[Lee TaeHoon](https://github.com/Tentennball) <br>
-
-[Woo Jaemin](https://github.com/WooJJam) <br>
-
-[Moon yeju](https://github.com/moonyeju) <br>
+<a href="https://github.com/asuan99/CS_interview_Study/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=asuan99/CS_interview_Study" />
+</a>
