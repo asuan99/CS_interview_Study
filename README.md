@@ -10,8 +10,8 @@
 [Woo Jaemin](https://github.com/WooJJam), 
 [Ahn SuJin](https://github.com/ssuzyn), 
 [JungMunGyu](https://github.com/JungMunGyu), 
-[Cho YuJeong](https://github.com/hiyoojeong)
-
+[Cho YuJeong](https://github.com/hiyoojeong), 
+[Moon yeju](https://github.com/moonyeju)
 
 <a href="https://github.com/asuan99/CS_interview_Study/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=asuan99/CS_interview_Study" />
