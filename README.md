@@ -18,10 +18,10 @@
 </a>
 
 ## Table of Contents
-- 1. CS
--- 
-- 2. Language
+- <a href="#cs">Part 1. CS</a>
+-- d
+- <a href="#language">2. Language</a>
 
-- 3. 분야별 정리
+- <a href="#field">3. 분야별 정리</a>
 
-- 4. 그 외
+- <a href="#others">4. 그 외</a>
