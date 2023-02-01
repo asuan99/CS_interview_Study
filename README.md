@@ -18,7 +18,7 @@
 </a>
 
 ## Table of Contents
-- <a href="#cs">Part 1. CS</a>
+- <a href="#cs">1. CS</a>
   - 개발상식
   - 네트워크
   - 운영체제
@@ -34,3 +34,11 @@
   - BE(Back End)
 
 - <a href="#others">4. 그 외</a>
+
+## CS
+
+## Language
+
+## 분야별 정리
+
+## 그 외
