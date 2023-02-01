@@ -20,8 +20,16 @@
 ## Table of Contents
 <li>
   <a href="#cs">Part 1. CS</a>
-  <li>ㅇㅇ</li>
-<li>
+  <ul>
+    <li>개발상식</li>
+    <li>네트워크</li>
+    <li>운영체제</li>
+    <li>컴퓨터구조</li>
+    <li>자료구조&알고리즘</li>
+    <li>데이터베이스</li>
+    <li>디자인패턴</li>
+  </ul>
+</li>
 
 - <a href="#language">2. Language</a>
 
