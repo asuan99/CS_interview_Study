@@ -37,6 +37,7 @@
 [JungMunGyu](https://github.com/JungMunGyu), 
 [Cho YuJeong](https://github.com/hiyoojeong), 
 [Moon yeju](https://github.com/moonyeju)
+[Kim himchan](https://github.com/HmDol)
 
 <a href="https://github.com/asuan99/CS_interview_Study/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=asuan99/CS_interview_Study" />
