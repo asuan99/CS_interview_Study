@@ -36,7 +36,7 @@
 [Ahn SuJin](https://github.com/ssuzyn), 
 [JungMunGyu](https://github.com/JungMunGyu), 
 [Cho YuJeong](https://github.com/hiyoojeong), 
-[Moon yeju](https://github.com/moonyeju)
+[Moon yeju](https://github.com/moonyeju),
 [Kim himchan](https://github.com/HmDol)
 
 <a href="https://github.com/asuan99/CS_interview_Study/graphs/contributors">
