@@ -10,7 +10,7 @@
         - 하나 이상의 노드로 이루어진 유한집합
         - Root라고 하는 노드가 하나 존재
         
-        ![Untitled](BST(Binary%20Search%20Tree)%E1%84%8B%E1%85%AA%20Binary%20Tree%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%E1%84%89%E1%85%A5%20%E1%84%89%E1%85%A5%E1%86%AF%20c43153c9825d4809923e4c278a3383aa/Untitled.png)
+        ![Untitled](https://user-images.githubusercontent.com/44726494/222750488-cb61fec1-cbc9-4860-9fe5-e25c4a5d3fe4.png)
         
     - **이진 탐색(Binary Search)**
         
@@ -19,19 +19,14 @@
     - **이진 트리(Binary Tree)**
         
         특징
-        
         - 모든 노드의 차수(degree)는 2를 넘지 않는다.
         - 왼쪽 서브트리와 오른쪽 서브트리가 구분
         
-        정의
-        
+        정의        
         - 유한 개의 노드들의 집합으로서 노드 수는 0이 될 수 있으며, 하나의 root 노드와 왼쪽 서브트리, 그리고 오른쪽 서브트리로 구성
         
-        완전 이진 트리(Complete Binary Tree)
         
-        - 깊이가 k이고 노드 수가 n인 이진 트리의 각 노드들의 깊이가 k인 포화 이진 트리에서 1부터 n까지의 번호를 붙인 노드들과 1대 1로 일치하는 이진 트리
-        
-        ![Untitled](BST(Binary%20Search%20Tree)%E1%84%8B%E1%85%AA%20Binary%20Tree%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%E1%84%89%E1%85%A5%20%E1%84%89%E1%85%A5%E1%86%AF%20c43153c9825d4809923e4c278a3383aa/Untitled%201.png)
+        ![Untitled (1)](https://user-images.githubusercontent.com/44726494/222750531-dfd7d6fa-2837-4d3f-8b3e-19c7f2831d61.png)
         
     - **이진 탐색 트리(Binary Search Tree)**
         
@@ -43,8 +38,8 @@
         - 왼쪽 서브트리에 저장된 키 값 < Root node의 키 값
         - 오른쪽 서브트리에 저장된 키 값 > Root node의 키 값
         
-        ![Untitled](BST(Binary%20Search%20Tree)%E1%84%8B%E1%85%AA%20Binary%20Tree%E1%84%8B%E1%85%A6%20%E1%84%83%E1%85%A2%E1%84%92%E1%85%A2%E1%84%89%E1%85%A5%20%E1%84%89%E1%85%A5%E1%86%AF%20c43153c9825d4809923e4c278a3383aa/Untitled%202.png)
-        
+        ![Untitled (2)](https://user-images.githubusercontent.com/44726494/222750634-39a87b35-8502-4b71-8cdf-f9cd8b2ba8b0.png)
+
 - **답안**
     
     이진 트리는 각각의 노드가 최대 2개의 자식 노드를 가지는 계층적 구조를 가지는 비선형 자료구조로, 자식 노드를 각각 왼쪽 자식 노드와 오른쪽 자식 노드라고 한다. 이진 탐색 트리는 이진 탐색과 연결 리스트를 결합한 자료구조이다. 이진 탐색의 효율적인 탐색 능력을 유지하면서, 빈번한 자료 입력과 삭제가 가능하다는 장점이 있다. 이진 탐색 트리는 왼쪽 트리의 모든 값이 반드시 부모 노드보다 작아야 하고, 반대로 오른쪽 트리의 모든 값이 부모 노드보다 커야 하는 특징을 가지고 있어야 한다.
