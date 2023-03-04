@@ -54,7 +54,7 @@
 
 ### AVL 트리란?(Available Tree)
 
-![AVL1](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%203.png)
+![AVL1](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL1.png?raw=true)
 
 위와 같이 이진탐색트리는 한쪽으로 노드가 쏠리는 한계점이 있다. 10,9,8,7,6을 순서대로 삽입할 시 편향트리가 만들어 지는 것을 알 수 있다.
 
@@ -62,7 +62,7 @@
 
 위와 같은 단점을 극복할 수 있는 트리가 AVL트리이다.
 
-![AVL2](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%204.png)
+![AVL2](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL2.png?raw=true)
 
 위의 편향트리를 AVL트리로 재구성하면 복잡도가 O(logN)이 된다.
 
@@ -78,27 +78,27 @@ AVL트리 구성방법 : 좌회전, 우회전
 
 우회전 : y노드의 오른쪽 자식 노드를 z노드로 변경한다.
 
-![AVL3](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%205.png)
+![AVL3](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL3.png?raw=true)
 
 좌회전 : y노드의 왼쪽 자식 노드를 z노드로 변경한다.
 
-![AVL4](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%206.png)
+![AVL4](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL4.png?raw=true)
 
 이 좌회전과 우회전을 적절히 사용해서 AVL트리를 구성한다.
 
-![AVL5](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%207.png)
+![AVL5](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL5.png?raw=true)
 
 LL 케이스 : 우회전 한번 적용
 
-![AVL6](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%208.png)
+![AVL6](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL6.png?raw=true)
 
 RR 케이스 : 좌회전 한번 적용
 
-![AVL7](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%209.png)
+![AVL7](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL7.png?raw=true)
 
 LR 케이스 : 좌회전 한번, 우회전 한번 적용
 
-![AVL8](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%2010.png)
+![AVL8](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL8.png?raw=true)
 
 RL 케이스 : 우회전 한번, 좌회전 한번 적용
 
