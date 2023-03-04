@@ -98,3 +98,7 @@
         - DOM 구성
 
     [Tree code](Basic_DataStructure_Part1_code/tree.cpp)
+
+----
+## Reference
+   [Wikipedia](https://en.wikipedia.org/wiki/Data_structure)
