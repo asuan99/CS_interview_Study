@@ -3,12 +3,21 @@
 ## 자료구조에서 선형 구조란 무엇이며 선형 구조를 가지는 자료구조는 무엇이 있나요?
 
 - 구조
+
+
     ![Linear-NonLinear](https://user-images.githubusercontent.com/111514410/222891310-51570957-a062-40fd-8e0a-69291e6f7498.png)
 
+
 - 선형구조(Linear)
+
+
     ![Linear](https://user-images.githubusercontent.com/111514410/222891194-ea02d231-61a8-4d74-98b2-5aa68d0483b7.png)
+    
+    
     - 자료를 구성하는 데이터를 순차적으로 나열시킨 형태
     - 하나의 자료 뒤에, 또 다른 자료가 존재
+
+
 - 배열 (Array)
     
     ![Array](https://user-images.githubusercontent.com/111514410/222891370-7b17f1f7-146d-4982-9327-595bd4ce66a5.jpg)
