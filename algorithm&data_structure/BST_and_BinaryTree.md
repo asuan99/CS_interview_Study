@@ -10,7 +10,7 @@
         - 하나 이상의 노드로 이루어진 유한집합
         - Root라고 하는 노드가 하나 존재
         
-        ![Untitled](https://user-images.githubusercontent.com/44726494/222750488-cb61fec1-cbc9-4860-9fe5-e25c4a5d3fe4.png)
+        ![Tree](https://user-images.githubusercontent.com/44726494/222750488-cb61fec1-cbc9-4860-9fe5-e25c4a5d3fe4.png)
         
     - **이진 탐색(Binary Search)**
         
@@ -26,7 +26,7 @@
         - 유한 개의 노드들의 집합으로서 노드 수는 0이 될 수 있으며, 하나의 root 노드와 왼쪽 서브트리, 그리고 오른쪽 서브트리로 구성
         
         
-        ![Untitled (1)](https://user-images.githubusercontent.com/44726494/222750531-dfd7d6fa-2837-4d3f-8b3e-19c7f2831d61.png)
+        ![Binary_tree](https://user-images.githubusercontent.com/44726494/222750531-dfd7d6fa-2837-4d3f-8b3e-19c7f2831d61.png)
         
     - **이진 탐색 트리(Binary Search Tree)**
         
@@ -38,7 +38,7 @@
         - 왼쪽 서브트리에 저장된 키 값 < Root node의 키 값
         - 오른쪽 서브트리에 저장된 키 값 > Root node의 키 값
         
-        ![Untitled (2)](https://user-images.githubusercontent.com/44726494/222750634-39a87b35-8502-4b71-8cdf-f9cd8b2ba8b0.png)
+        ![Binary_search_tree](https://user-images.githubusercontent.com/44726494/222750634-39a87b35-8502-4b71-8cdf-f9cd8b2ba8b0.png)
 
 - **답안**
     
