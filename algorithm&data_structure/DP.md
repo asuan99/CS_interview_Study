@@ -82,9 +82,10 @@ int BottomUpFivo(int n) {
 
 
 
-## Ref
-https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EA%B3%84%ED%9A%8D%EB%B2%95<br>
-https://velog.io/@kimdukbae/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-Dynamic-Programming#%ED%83%91%EB%8B%A4%EC%9A%B4top-down-vs-%EB%B0%94%ED%85%80%EC%97%85bottom-up<br>
-https://hongjw1938.tistory.com/47<br>
+## 참고자료
+Wikipedia([DP](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EA%B3%84%ED%9A%8D%EB%B2%95))<br>
+
+개발 블로그([kimdukbae](https://velog.io/@kimdukbae/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-Dynamic-Programming#%ED%83%91%EB%8B%A4%EC%9A%B4top-down-vs-%EB%B0%94%ED%85%80%EC%97%85bottom-up),
+[jjong1991](https://hongjw1938.tistory.com/47))<br>
 
 
