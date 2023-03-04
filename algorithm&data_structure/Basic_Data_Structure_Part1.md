@@ -1,7 +1,10 @@
 # Basic Data Structure Part1.
 
-1. 배열과 연결리스트의 차이점과 그 활용처에 대해 설명해주세요
-2. 추상형 자료구조를 활용해 메모리 효율성, 정확성을 증가시키거나 용량 문제를 해결할 수 있는 방안에 대해 얘기해주세요 (advanced topic) 
+### 1. 배열과 연결리스트의 차이점과 그 활용처에 대해 설명해주세요
+
+### 2. 추상형 자료구조를 활용해 메모리 효율성, 정확성을 증가시키거나 용량 문제를 해결할 수 있는 방안에 대해 얘기해주세요 (advanced topic) 
+
+### [Answer](Basic_Data_Structure_Part1_image/answer.md)
 
 - Array
     
@@ -38,6 +41,10 @@
     
     [Linked List code](Basic_DataStructure_Part1_code/linkedlist.cpp)
     
+
+
+----
+
 - Stack & Queue
     - Stack
         
