@@ -2,7 +2,7 @@
 
 - **자료 조사**
     
-    ![Untitled](https://user-images.githubusercontent.com/44726494/222752691-97d1b3ec-30d3-4b85-829c-331c91a52399.png)
+    ![hash operation](https://user-images.githubusercontent.com/44726494/222752691-97d1b3ec-30d3-4b85-829c-331c91a52399.png)
 
     - **해시 함수 (Hash Function)**
         
@@ -20,19 +20,19 @@
             - 해시 값이 주어졌을 때, 그 해시 값을 생성하는 입력값을 알아내는 것이 불가능하다는 특성
             - **참고**
                 
-                ![Untitled (1)](https://user-images.githubusercontent.com/44726494/222752719-6682f7f1-b37a-464f-b450-bbc51a288a06.png)
+                ![Preimage_resistance](https://user-images.githubusercontent.com/44726494/222752719-6682f7f1-b37a-464f-b450-bbc51a288a06.png)
 
         2. 제2 역상 저항성
             - 어떤 입력 값과 동일한 해시 값 (결과 값)을 가지는 다른 입력 값을 찾을 수 없어야 한다는 특성
             - **참고**
-                ![Untitled (2)](https://user-images.githubusercontent.com/44726494/222752750-ffcc608a-d1ee-4064-b593-beb70b841be8.png)
+                ![2nd_preimage_resistance](https://user-images.githubusercontent.com/44726494/222752750-ffcc608a-d1ee-4064-b593-beb70b841be8.png)
 
         3. 충돌 저항성
             
             해시 값이 동일한 입력 값 두 개를 찾을 수 없다는 특성이다.
             
             - **참고**
-                ![Untitled (3)](https://user-images.githubusercontent.com/44726494/222752782-fe4db9b5-cd75-46db-922b-4a05336ca2c2.png)
+                ![Collision_esistance](https://user-images.githubusercontent.com/44726494/222752782-fe4db9b5-cd75-46db-922b-4a05336ca2c2.png)
 
     - **해시 (Hash)**
         
