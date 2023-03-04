@@ -32,11 +32,11 @@
 
 **자료조사**
 
-![ArrayList1](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%201.png)
+![ArrayList1](https://raw.githubusercontent.com/Tentennball/CS_interview_Study/main/algorithm%26data_structure/image/ArrayList1.png)
 
 배열의 데이터 추가(삭제도 비슷한 원리)
 
-![LinkedList2](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled%202.png)
+![LinkedList2](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/LinkedList2.png?raw=true)
 
 연결리스트의 데이터 추가(삭제도 비슷한 원리)
 
