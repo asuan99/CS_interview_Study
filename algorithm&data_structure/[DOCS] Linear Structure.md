@@ -3,20 +3,15 @@
 ## 자료구조에서 선형 구조란 무엇이며 선형 구조를 가지는 자료구조는 무엇이 있나요?
 
 - 구조
-    
-    ![Linear](https://user-images.githubusercontent.com/111514410/222890028-181683ca-5688-4ad7-ae1d-b745a76cf2f5.png)
+    ![Linear-NonLinear](https://user-images.githubusercontent.com/111514410/222891310-51570957-a062-40fd-8e0a-69291e6f7498.png)
 
-    
-- 선형구조 (Linear)
-    
-    ![Untitled](%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20bda297a78a024a33ab43311bf72c7d27/Untitled%201.png)
-    
+- 선형구조(Linear)
+    ![Linear](https://user-images.githubusercontent.com/111514410/222891194-ea02d231-61a8-4d74-98b2-5aa68d0483b7.png)
     - 자료를 구성하는 데이터를 순차적으로 나열시킨 형태
     - 하나의 자료 뒤에, 또 다른 자료가 존재
 - 배열 (Array)
     
-    ![image.jpg](%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20bda297a78a024a33ab43311bf72c7d27/image.jpg)
-    
+    ![Array](https://user-images.githubusercontent.com/111514410/222891370-7b17f1f7-146d-4982-9327-595bd4ce66a5.jpg)
     - 같은 Type의 변수들로 이루어져 있음
     - 크기가 정해져 있음
     - 인접한 메모리 위치에 있는 데이터를 모아놓은 집합
@@ -31,31 +26,37 @@
     - 가장 앞 노드를 head라고 하고, prev 포인터와 next 포인터로 앞과 뒤의 노드를 연결
     - 탐색: O(n), 삽입과 삭제: O(1)
     - 싱글 연결 리스트
-        
-        ![image.jpg](%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20bda297a78a024a33ab43311bf72c7d27/image%201.jpg)
-        
+        ![Linked-List](https://user-images.githubusercontent.com/111514410/222891738-9c7d5883-0a66-4f2e-9b22-388dcd09a3ea.jpg)
+    
     - 이중 연결 리스트
-        
-        ![image.jpg](%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20bda297a78a024a33ab43311bf72c7d27/image%202.jpg)
+        ![Doubly Linked-List](https://user-images.githubusercontent.com/111514410/222891844-9d2bfeda-9262-4bd5-96fb-80858f957d57.jpg)    
         
     - 원형 이중 연결 리스트
-        
-        ![image.jpg](%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20bda297a78a024a33ab43311bf72c7d27/image%203.jpg)
-        
+
+
+        ![Circular Linkend-List](https://user-images.githubusercontent.com/111514410/222892022-ea2df66f-b9f6-4702-92f7-291d9c41c12c.jpg)
+
+
 - 배열 vs 연결리스트
     - 배열: 순서대로 나열한 데이터 구조이므로, 인덱스만 알면 해당 데이터를 확인할 수 있다.
     - 연결리스트: 포인터로 연결한 형태의 데이터 구조로, 데이터를 알기 위해선 순차적으로 접근하여야 한다. 랜덤접근(x)
+
 - 스택 (Stack)
     
-    ![image.jpg](%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20bda297a78a024a33ab43311bf72c7d27/image%204.jpg)
+    
+    ![Stack](https://user-images.githubusercontent.com/111514410/222891462-0fb8d34e-5106-47c1-b5ea-f65a9ae21f29.jpg)
+    
     
     - LIFO (Last In First Out): 가장 마지막에 들어간 데이터가 가장 첫 번째로 나오는 구조
     - 웹 방문 기록 등에 주로 사용됨
     - 삽입, 삭제: O(1)
     - 탐색: O(n)
+    - 
 - 큐 (Queue)
     
-    ![image.jpg](%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20bda297a78a024a33ab43311bf72c7d27/image%205.jpg)
+    
+    ![Queue](https://user-images.githubusercontent.com/111514410/222891520-9d4a11b2-272f-42ad-bab8-c085bb77bbf1.jpg)
+    
     
     - FIFO (First In First Out): 먼저 집어넣은 데이터가 먼저 나오는 성질을 가진 구조
     - CPU 할당을 기다리는 프로세스,  선입선출이 필요한 대기열,  프로세스 관리, 캐시 등에 사용
