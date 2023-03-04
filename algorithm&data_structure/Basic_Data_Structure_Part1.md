@@ -39,7 +39,7 @@
     
     ![예시 결과](Basic_Data_Structure_Part1_image/LinkedList.png)
     
-    [Linked List code](Basic_DataStructure_Part1_code/linkedlist.cpp)
+    [Linked List code](Basic_Data_Structure_Part1_code/linkedlist.cpp)
     
 
 
@@ -63,7 +63,7 @@
         
         ![예제 결과](Basic_Data_Structure_Part1_image/Stack.png)
         
-        [Stack code](Basic_DataStructure_Part1_code/Stack.cpp)
+        [Stack code](Basic_Data_Structure_Part1_code/Stack.cpp)
         
     - Queue
         
@@ -82,7 +82,7 @@
         
         ![예제 실행 결과](Basic_Data_Structure_Part1_image/Queue.png)
         
-        [Queue code](Basic_DataStructure_Part1_code/queue.cpp)
+        [Queue code](Basic_Data_Structure_Part1_code/queue.cpp)
         
 - Tree
     
