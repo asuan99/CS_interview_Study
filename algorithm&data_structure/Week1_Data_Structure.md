@@ -16,7 +16,7 @@
      LinkedList는 **자료의 주소값으로 서로 연결된 형식**을 가지고 있다. 
     
 
-![ArrayList](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1(%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9)%205d1c2f4b1f7f4c869bc3aa96c4026e30/Untitled.png)
+![ArrayList](https://raw.githubusercontent.com/Tentennball/CS_interview_Study/main/algorithm%26data_structure/image/ArrayList.png)
 
 사진과 같이 ArrayList는 데이터들이 순서대로 늘어선 배열의 형식이다.
 
