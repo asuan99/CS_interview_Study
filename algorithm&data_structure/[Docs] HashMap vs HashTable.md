@@ -48,7 +48,7 @@
     
 - 답안
     
-    Hashmap은 key와 value에 null을 허용하지만 HashTable은 허용하지 않는다는 차이점도 있지만 가장 큰 차이는 Thread-safe라고 할 수 있다. Hashtable의 모든 data 변경 메소드는 syncronized로 선언되어 있어 data의 무결성을 보장해주는 반면 HashMap의 경우 Thread-safe하지 않기 때문에 멀티 스레드 환경에서 동시에 data를 조작할 경우 data가 깨질 수 있다.
+    Hashmap은 key와 value에 null을 허용하지만 HashTable은 허용하지 않는다는 차이점도 있지만 가장 큰 차이는 Thread-safe라고 할 수 있다. Hashtable의 모든 data 변경 메소드는 synchronized로 선언되어 있어 data의 무결성을 보장해주는 반면 HashMap의 경우 Thread-safe하지 않기 때문에 멀티 스레드 환경에서 동시에 data를 조작할 경우 data가 깨질 수 있다.
     
 - 참고
     
