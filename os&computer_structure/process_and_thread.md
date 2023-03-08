@@ -4,7 +4,7 @@
 
 - 자료 조사
     
-    ![Untitled](overview_process.png)
+    ![Untitled](img/overview_process.png)
     
     - 프로그램(program)
         - 컴퓨터가 실행하기 위한 프로그래밍 언어로 작성된 명령어들의 집합 또는 순서
@@ -60,79 +60,10 @@
     
     전체 합(1~100)
     
-    싱글 프로그래밍
+    - [싱글 프로그래밍](code/single.cpp)
+    - [병렬 프로그래밍 (4-thread)](code/multi.cpp)
     
-    ```cpp
-    #include <iostream>
-    #include <chrono>
     
-    using namespace std;
-    using namespace chrono;
-    
-    int sum=0;
-    
-    void partSum(int start, int end)
-    {
-        for(int i =start; i <=end;i++)
-        {
-                sum+=i;
-                //cout<<"partial : "<< sum <<"("<<i<<")"<<endl;
-        }
-    }
-    
-    int main(){
-        auto begin = steady_clock::now();
-    
-        partSum(1,100);
-    
-        auto end = steady_clock::now();
-    
-        cout<<"sum : "<< sum << endl;
-        cout<<"runtime : "<<duration_cast<nanoseconds>(end-begin).count()<<"ns"<<endl;
-        return 0;
-    }
-    ```
-    
-    병렬 프로그래밍 (4-thread)
-    
-    ```cpp
-    #include <iostream>
-    #include <thread>
-    #include <chrono>
-    
-    using namespace std;
-    using namespace chrono;
-    int sum = 0;
-    
-    void partSum(int start, int end)
-    {
-        for(int i =start; i <=end;i++)
-        {
-                sum+=i;
-                //cout<<"partial : "<< sum <<"("<<i<<")"<<endl;
-        }
-    }
-    
-    int main()
-    {
-        thread thread1(partSum,1,25);
-        thread thread2(partSum,26,50);
-        thread thread3(partSum,51,75);
-        thread thread4(partSum,76,100);
-    
-        auto begin = steady_clock::now();
-        thread1.join();
-        thread2.join();
-        thread3.join();
-        thread4.join();
-    
-        auto end = steady_clock::now();
-        cout<<"sum : "<< sum << endl;
-        cout<<"runtime : "<<duration_cast<nanoseconds>(end-begin).count()<<"ns"<<endl;
-        return 0;
-    
-    }
-    ```
     
 - Reference
     
