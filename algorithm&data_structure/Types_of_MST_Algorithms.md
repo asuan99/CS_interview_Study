@@ -4,12 +4,11 @@
 
 - Spanning Tree
     
-    ![Untitled](MST%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%20bc78c99b2f634199b0e324833d136399/Untitled.png)
-    
+    ![Spanning_Tree](https://github.com/WooJJam/CS_interview_Study/blob/main/algorithm%26data_structure/img/Spanning_Tree.png)
     - 그래프 내의 모든 정점을 포함하는 트리, 최소 연결 부분 그래프
 - MST (Minimum Cost Spannig Tree) : 최소 비용 신장 트리
     
-    ![Untitled](MST%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%20bc78c99b2f634199b0e324833d136399/Untitled%201.png)
+    ![Minimum_Cost_Spanning_Tree](https://github.com/WooJJam/CS_interview_Study/blob/main/algorithm%26data_structure/img/Minimum_Cost_Spanning_Tree.png)
     
     - 무방향 가중치 그래프에서 신장 트리를 구성하는 간선들의 가중치 합이 최소인 신장트리
     - 모든 정점을 가장 적은 수의 간선과 비용으로 연결하는 것
@@ -20,7 +19,7 @@
             - 그 순간에는 최적이지만 전체적인 관점에서는 최적이라는 보장이 없으므로 검증이 필요
     - Kruskal 알고리즘의 동작 과정
         
-        ![Untitled](MST%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%20bc78c99b2f634199b0e324833d136399/Untitled%202.png)
+        ![Kruscal](https://github.com/WooJJam/CS_interview_Study/blob/main/algorithm%26data_structure/img/Kruscal.png)
         
         1. 그래프의 간선들을 가중치의 오름차순으로 정렬
         2. 사이클을 형성하지 않는 간선을 선택
@@ -38,7 +37,7 @@
     - 시작 정점에서부터 출발하여 신장트리 집합을 단계적으로 확장해나가는 방법
     - Prim 알고리즘의 동작 과정
         
-        ![Untitled](MST%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%20bc78c99b2f634199b0e324833d136399/Untitled%203.png)
+        ![Prim](https://github.com/WooJJam/CS_interview_Study/blob/main/algorithm%26data_structure/img/Prim.png)
         
         - 정점 선택을 기반으로 하는 알고리즘
         - 이전 단계에서 만들어진 신장 트리를 확장하는 방법
