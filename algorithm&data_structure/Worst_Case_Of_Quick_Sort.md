@@ -6,13 +6,10 @@
     
     - pivot을 기준으로 작은 값은 왼쪽, 큰 값은 오른쪽 서브파일로 분해시키는 방식으로 정렬
     
-    ![66C5BF4A-F9D8-4C64-AFCC-8ABDA5B6A07B.jpeg](2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20c176131b14e942bfa87ddb236e273826/66C5BF4A-F9D8-4C64-AFCC-8ABDA5B6A07B.jpeg)
-    
-    ![3FF98B1F-967C-4776-9499-9DD91F06850A.jpeg](2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20c176131b14e942bfa87ddb236e273826/3FF98B1F-967C-4776-9499-9DD91F06850A.jpeg)
-    
-    ![46A2D749-9A27-4191-95B5-800FEDC30B60.jpeg](2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20c176131b14e942bfa87ddb236e273826/46A2D749-9A27-4191-95B5-800FEDC30B60.jpeg)
-    
-    ![284D8C1F-1C0A-4B54-A8CC-B1C0046742FF.jpeg](2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20c176131b14e942bfa87ddb236e273826/284D8C1F-1C0A-4B54-A8CC-B1C0046742FF.jpeg)
+    ![Quick_Sort_01](https://user-images.githubusercontent.com/99192837/224106068-b336c67b-52a6-46ee-b25a-1df498767922.jpeg)
+    ![Quick_Sort_02](https://user-images.githubusercontent.com/99192837/224106152-d851c4f8-7188-4e00-b477-24d3bcdecb4c.jpeg)
+    ![Quick_Sort_03](https://user-images.githubusercontent.com/99192837/224106189-81ba7fa7-b737-45bd-80c0-898bee57ebfb.jpeg)
+    ![Quick_Sort_04](https://user-images.githubusercontent.com/99192837/224106221-340846cb-0a84-4de4-8d0e-92fbac06eba7.jpeg)s
     
     ### Quick Sort의 특징
     
