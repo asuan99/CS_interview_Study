@@ -9,7 +9,7 @@
     ![Quick_Sort_01](https://user-images.githubusercontent.com/99192837/224106068-b336c67b-52a6-46ee-b25a-1df498767922.jpeg)
     ![Quick_Sort_02](https://user-images.githubusercontent.com/99192837/224106152-d851c4f8-7188-4e00-b477-24d3bcdecb4c.jpeg)
     ![Quick_Sort_03](https://user-images.githubusercontent.com/99192837/224106189-81ba7fa7-b737-45bd-80c0-898bee57ebfb.jpeg)
-    ![Quick_Sort_04](https://user-images.githubusercontent.com/99192837/224106221-340846cb-0a84-4de4-8d0e-92fbac06eba7.jpeg)s
+    ![Quick_Sort_04](https://user-images.githubusercontent.com/99192837/224106221-340846cb-0a84-4de4-8d0e-92fbac06eba7.jpeg)
     
     ### Quick Sort의 특징
     
