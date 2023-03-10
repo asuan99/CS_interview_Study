@@ -27,11 +27,11 @@ Reference
         
         두 vertex u와 v가 $\text{u}\leq\text{v}$와 같은 순서를 가진다면 DAG에서 u에서 v로의 직접적인 경로가 존재한다는 뜻이며, u가 v에 도달할 수 있다고 얘기한다.
         
-        $\text{u}\rightarrow\text{v}$ 와 $\text{v}\rightarrow\text{w}$ 두 가지 edge를 가진 DAG의 reachability relation는 다음 세 가지 edge( $\text{u}\rightarrow\text{v}$, $\text{v}\rightarrow\text{w}$, $\text{u}\rightarrow\text{w}$ )를 가진 DAG의 reachability realation와 같다. 두 DAG는 같은 $\text{u}\leq\text{v}\leq\text{w}$ 부분 순서를 가진다. (추이적 관계)
+        $\text{u}\rightarrow\text{v}$ 와 $\text{v}\rightarrow\text{w}$ 두 가지 edge를 가진 DAG의 reachability relation는 다음 세 가지 edge( $\text{u}\rightarrow\text{v}$, $\text{v}\rightarrow\text{w}$, $\text{u}\rightarrow\text{w}$ )를 가진 DAG의 reachability relaation와 같다. 두 DAG는 같은 $\text{u}\leq\text{v}\leq\text{w}$ 부분 순서를 가진다. (추이적 관계)
         
     - **Transitive closure**
         
-        DAG의 transitive closure는 가장 많은 edge가 DAG와 같은 reachability realtion 를 가지는 그래프를 말한다. 이는 DAG의 reachability realtion의 covering relation에서 모든 vertex 쌍 (u,v)에 대해 $\text{u}\rightarrow\text{v}$ edge를 가지므로, graph-theoretic term으로 reachability relation의 직접적인 변환으로 생각할 수 있다. 
+        DAG의 transitive closure는 가장 많은 edge가 DAG와 같은 reachability relation 를 가지는 그래프를 말한다. 이는 DAG의 reachability relation의 covering relation에서 모든 vertex 쌍 (u,v)에 대해 $\text{u}\rightarrow\text{v}$ edge를 가지므로, graph-theoretic term으로 reachability relation의 직접적인 변환으로 생각할 수 있다. 
         
         DAG로의 부분 순서 변환의 같은 방법은 더 일반적으로 작용한다. 모든 유한 부분 순서 집합 $\text{( S, }\leq\text{ )}$에 대해 S의 모든 원소를 위한 vertex를 가지고 $\leq$ 의 모든 원소 쌍의 edge를 가지는 그래프는 자동으로  transitively closed DAG가 되고, $\text{( S, }\leq\text{ )}$를 reachability relation으로 가진다. 이런 방법으로 모든 유한 부분 순서 집합은 DAG로 표현될 수 있다. 
         
@@ -70,7 +70,7 @@ Reference
         
         일반적으로, DAG가 유일한 topolocial ordering를 가진다는 건 모든 vertex를 포함하는 경로를 포함한다는 말이기 때문에, 이런 순서는 유일하지 않다.
         
-        DAG의 topological ordering 가족은 DAG를 위한 reachability realtion의 linear extension의 가족과 같다. 그래서 같은 부분 순서를 나타내는 두 그래프는 같은 topological order 집합을 갖는다.
+        DAG의 topological ordering 가족은 DAG를 위한 reachability relation의 linear extension의 가족과 같다. 그래서 같은 부분 순서를 나타내는 두 그래프는 같은 topological order 집합을 갖는다.
         
     - **Related families of graphs**
         - Multitree (strongly unambiguous graph, mangrove)
@@ -126,7 +126,7 @@ Reference
         몇몇 알고리즘은 topological ordering의 원칙에 따라 일반적인 그래프 대신 DAG에서 사용할 때 단순화할 수 있다. 예를 들어 DAG에서 주어진 시작 vertex에서 최소 경로와 최대 경로를 찾는 건 [topological order에서의 vertex 처리](https://en.wikipedia.org/wiki/Topological_sorting#Application_to_shortest_path_finding)와 각 vertex에 대해 들어오는 edge를 포함해 경로 길이를 계산해통해 선형 시간내에 이뤄질 수 있다.  반대로 임의의 그래프에 대해 최소 경로는 Dijkstra 알고리즘이나 Bellman-Ford 알고리즘 같은 느린 알고리즘을 요구할 수 있고 임의의 그래프에서 최대 경로는 NP-hard 문제가 된다.
         
 
-- 질문1: DAG의 수학적 특징 (Reachability realtion, Transitive closure, Transitive reduction)에 대해 간단히 설명해주세요.
+- 질문1: DAG의 수학적 특징 (Reachability relation, Transitive closure, Transitive reduction)에 대해 간단히 설명해주세요.
     
     도달 가능성은 그래프 안의 한 꼭짓점에서 다른 꼭짓점으로 도달할 수 있는 도달 가능성을 말하고 이는 추이적 성질을 지니기 때문에, $\text{a}\leq\text{b}$ , $\text{b}\leq\text{c}$ 의 관계성을 통해 $\text{a}\leq\text{c}$ 의 관계성을 지닌다는 것을 이끌어 낼 수 있습니다. 이를 통해 앞선 두 관계성을 가지는 그래프와 추론된 관계성까지 세 관계성을 모두 가지는 그래프의 도달 가능성은 같다고 말할 수 있습니다.
     
