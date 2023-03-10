@@ -16,7 +16,7 @@
      LinkedList는 **자료의 주소값으로 서로 연결된 형식**을 가지고 있다. 
     
 
-![ArrayList](https://raw.githubusercontent.com/Tentennball/CS_interview_Study/main/algorithm%26data_structure/image/ArrayList.png)
+![ArrayList](img/ArrayList.png)
 
 사진과 같이 ArrayList는 데이터들이 순서대로 늘어선 배열의 형식이다.
 
@@ -32,11 +32,11 @@
 
 **자료조사**
 
-![ArrayList1](https://raw.githubusercontent.com/Tentennball/CS_interview_Study/main/algorithm%26data_structure/image/ArrayList1.png)
+![ArrayList1](img/ArrayList1.png)
 
 배열의 데이터 추가(삭제도 비슷한 원리)
 
-![LinkedList2](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/LinkedList2.png?raw=true)
+![LinkedList2](img/LinkedList2.png)
 
 연결리스트의 데이터 추가(삭제도 비슷한 원리)
 
@@ -54,7 +54,7 @@
 
 ### AVL 트리란?(Available Tree)
 
-![AVL1](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL1.png?raw=true)
+![AVL1](img/AVL1.png)
 
 위와 같이 이진탐색트리는 한쪽으로 노드가 쏠리는 한계점이 있다. 10,9,8,7,6을 순서대로 삽입할 시 편향트리가 만들어 지는 것을 알 수 있다.
 
@@ -62,7 +62,7 @@
 
 위와 같은 단점을 극복할 수 있는 트리가 AVL트리이다.
 
-![AVL2](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL2.png?raw=true)
+![AVL2](img/AVL2.png)
 
 위의 편향트리를 AVL트리로 재구성하면 복잡도가 O(logN)이 된다.
 
@@ -78,27 +78,27 @@ AVL트리 구성방법 : 좌회전, 우회전
 
 우회전 : y노드의 오른쪽 자식 노드를 z노드로 변경한다.
 
-![AVL3](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL3.png?raw=true)
+![AVL3](img/AVL3.png)
 
 좌회전 : y노드의 왼쪽 자식 노드를 z노드로 변경한다.
 
-![AVL4](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL4.png?raw=true)
+![AVL4](img/AVL4.png)
 
 이 좌회전과 우회전을 적절히 사용해서 AVL트리를 구성한다.
 
-![AVL5](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL5.png?raw=true)
+![AVL5](img/AVL5.png)
 
 LL 케이스 : 우회전 한번 적용
 
-![AVL6](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL6.png?raw=true)
+![AVL6](img/AVL6.png)
 
 RR 케이스 : 좌회전 한번 적용
 
-![AVL7](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL7.png?raw=true)
+![AVL7](img/AVL7.png)
 
 LR 케이스 : 좌회전 한번, 우회전 한번 적용
 
-![AVL8](https://github.com/Tentennball/CS_interview_Study/blob/main/algorithm&data_structure/image/AVL8.png?raw=true)
+![AVL8](img/AVL8.png)
 
 RL 케이스 : 우회전 한번, 좌회전 한번 적용
 
