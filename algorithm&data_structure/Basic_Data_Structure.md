@@ -4,7 +4,7 @@
 
 ### 2. 추상형 자료구조를 활용해 메모리 효율성, 정확성을 증가시키거나 용량 문제를 해결할 수 있는 방안에 대해 얘기해주세요 (advanced topic) 
 
-### [Answer](answer/answer.md)
+### [Answer](answer/basic_ds_answer.md)
 
 - Array
     
