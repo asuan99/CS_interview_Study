@@ -61,8 +61,7 @@
     
     - 빅 오(Big O)표기법의 종류
         
-        ![Untitled](cs%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%202%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%209dccce43e61f47d9b6ba58a54ad1f0b9/Untitled.png)
-        
+        <img src="img/chart.png"> 
         - O(1)
             
             일정한 복잡도라고 하며, 입력값이 증가하더라도 시간이 늘어나지 않는다.
