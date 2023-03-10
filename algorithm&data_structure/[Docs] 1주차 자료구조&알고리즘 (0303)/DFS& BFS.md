@@ -29,7 +29,7 @@
         3. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복
 - 각각의 장단점
     
-    ![difference](https://user-images.githubusercontent.com/88701965/222902448-a95db338-5263-43d2-86ce-faa316105de9.png)
+    ![difference](img/difference.png)
     
     - DFS
         - 장점
