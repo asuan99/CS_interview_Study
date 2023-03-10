@@ -24,7 +24,7 @@
                 
             - 이진 탐색 트리(binary search tree)
                 
-                ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled.png)
+                ![binary_search_tree](https://user-images.githubusercontent.com/88701965/224226523-bb28b62c-bee7-41ca-993a-0eec0cd3ae61.png)
                 
                 left child: 부모 노드의 데이터보다 값이 작아야함
                 
@@ -34,7 +34,7 @@
                 
             - 완전 이진 트리(complete binary tree)
                 
-                ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled%201.png)
+                ![complete_binary_tree](https://user-images.githubusercontent.com/88701965/224226591-941a2870-6c3f-4dd9-b3ff-74087fab52a4.png)
                 
                 이진 트리의 일종
                 
@@ -57,7 +57,7 @@
                 작은 값을 가진 element가 우선순위 위에 위치
                 
             
-            ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled%202.png)
+            ![maxHeap_minHeap](https://user-images.githubusercontent.com/88701965/224226678-914e08f5-ab4c-46aa-b553-1cc18dd96b43.png)
             
         - heap의 특징
             - 최대값과 최소값을 O(1)의 속도로 구할 수 있다 → 반정렬 구조
@@ -73,7 +73,7 @@
                 ```
                 
             
-            ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled%203.png)
+            ![heap_index](https://user-images.githubusercontent.com/88701965/224226763-b1c96245-eecd-4170-ae22-e944cce2636f.png)
             
         - 삽입 / 삭제 연산
             - Max Heap - O(logn)
@@ -82,18 +82,18 @@
                     2. 부모 노드와 비교하여 부모 노드보다 작다면 그대로 두고
                     3. 부모 노드보다 크다면, 부모 노드와 위치를 바꿔준다.
                     
-                    ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled%204.png)
-                    
-                    ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled%205.png)
+                    ![heap_insert_1](https://user-images.githubusercontent.com/88701965/224226768-0e74fb56-9a18-4f5c-9469-414bcb675c16.png)
+
+                    ![heap_insert_2](https://user-images.githubusercontent.com/88701965/224226780-b95e4351-5cae-42bb-b69c-ab68a500dcd6.png)
                     
                 - 삭제
                     1. root 노드를 삭제한다.
                     2. root 노드의 자리에 맨 마지막 노드를 가져온다.
                     3. heap을 재구성한다. (만약 자식 노드보다 크다면 그대로 두고, 작다면 자식노드와 값을 바꾼다.)
                     
-                    ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled%206.png)
+                    ![heap_delete_1](https://user-images.githubusercontent.com/88701965/224226920-ac5f8c7f-79f9-4ca5-ab57-bc49efd51644.png)
                     
-                    ![Untitled](%E1%84%92%E1%85%B5%E1%86%B8(heap)%209eee35ea94de494cb0d1bbf8e193eda4/Untitled%207.png)
+                    ![heap_delete_2](https://user-images.githubusercontent.com/88701965/224226924-df82e0fb-9bcd-482f-9ec3-d52c8a62167f.png)
                     
             - Min Heap
                 
