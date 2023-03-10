@@ -60,38 +60,22 @@
     빅 오(Big O) 표기법은 알고리즘의 시간 복잡도를 표현하는 데 가장 널리 사용되는 표기법입니다. 빅 오 표기법은 알고리즘의 최악의 실행시간을 나타내며, 입력 크기에 대한 알고리즘 실행 의 상한을 나타내는 표기법입니다.
     
     - 빅 오(Big O)표기법의 종류
-        
         <img src="img/chart.png"> 
         - O(1)
-            
             일정한 복잡도라고 하며, 입력값이 증가하더라도 시간이 늘어나지 않는다.
-            
-            ![Untitled](cs%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%202%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%209dccce43e61f47d9b6ba58a54ad1f0b9/Untitled%201.png)
-            
+            <img src="img/O(1).png"> 
         - O(n)
-            
             선형 복잡도라고 부르며, 입력값이 증가함에 따라 시간 또한 같은 비율로 증가하는 것을 의미한다.
-            
-            ![Untitled](cs%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%202%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%209dccce43e61f47d9b6ba58a54ad1f0b9/Untitled%202.png)
-            
+            <img src="img/O(n).png"> 
         - O(log n)
-            
             로그 복잡도라고 부르며, Big-O표기법중 O(1)다음으로 빠른 시간 복잡도를 가진다.
-            
-            ![Untitled](cs%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%202%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%209dccce43e61f47d9b6ba58a54ad1f0b9/Untitled%203.png)
-            
+            <img src="img/O(logn).png"> 
         - O(n^2)
-            
             2차 복잡도라고 부르며, 입력값이 증가함에 따라 시간이 n의 제곱수의 비율로 증가하는 것을 의미한다.
-            
-            ![Untitled](cs%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%202%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%209dccce43e61f47d9b6ba58a54ad1f0b9/Untitled%204.png)
-            
+            <img src="img/O(n^2).png"> 
         - O(2^n)
-            
             기하급수적 복잡도라고 부르며, Big-O표기법 중 가장 느린 시간 복잡도를 가진다.
-            
-            ![Untitled](cs%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%202%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%209dccce43e61f47d9b6ba58a54ad1f0b9/Untitled%205.png)
-            
+            <img src="img/O(2^n).png"> 
 - 다른 시간 복잡도 표기법
     - 빅 오메가(Big Omega) 표기법
         
@@ -113,8 +97,6 @@
         
         알고리즘의 하한선보다 빠르게 증가하는 함수를 나타내는 표기법입니다. ω 표기법으로 표시되며, 빅 오메가 표기법과 달리 엄격한 하한선이 아니라 근사적인 하한선을 나타냅니다.
         
-
-[data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)
 
 **질문 답변**
 
