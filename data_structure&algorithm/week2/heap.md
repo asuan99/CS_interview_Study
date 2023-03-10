@@ -28,25 +28,25 @@
                 
     - 이진 탐색 트리(binary search tree)
                 
-    ![binary_search_tree](https://user-images.githubusercontent.com/88701965/224226523-bb28b62c-bee7-41ca-993a-0eec0cd3ae61.png)
-                
         left child: 부모 노드의 데이터보다 값이 작아야함
                 
         right child: 부모 노드의 데이터보다 값이 커야함
                 
         중위순회(inorder travel)를 적용하면 오름차순 정렬이 된다.
+        
+        ![binary_search_tree](https://user-images.githubusercontent.com/88701965/224226523-bb28b62c-bee7-41ca-993a-0eec0cd3ae61.png)
                 
     - 완전 이진 트리(complete binary tree)
                 
-    ![complete_binary_tree](https://user-images.githubusercontent.com/88701965/224226591-941a2870-6c3f-4dd9-b3ff-74087fab52a4.png)
+       이진 트리의 일종
                 
-        이진 트리의 일종
-                
-        모든 노드가 왼쪽에서 오른쪽으로 빠짐없이 채워져 있으며
+       모든 노드가 왼쪽에서 오른쪽으로 빠짐없이 채워져 있으며
         
-        마지막 레벨을 제외한 모든 레벨이 꽉 차 있는 트리 구조
+       마지막 레벨을 제외한 모든 레벨이 꽉 차 있는 트리 구조
                 
-        마지막 레벨은 왼쪽부터 차례로 노드가 채워져 있다.
+       마지막 레벨은 왼쪽부터 차례로 노드가 채워져 있다.
+       
+       ![complete_binary_tree](https://user-images.githubusercontent.com/88701965/224226591-941a2870-6c3f-4dd9-b3ff-74087fab52a4.png)
                 
         
 - heap의 종류
