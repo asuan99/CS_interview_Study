@@ -57,5 +57,5 @@
         - TCP는 연결지향적 프로토콜이고 UDP는 비연결성 프로토콜이다. TCP는 클라이언트와 서버를 통한 연결성 서비스를 통한 가상 회선 방식을 제공하지만 UDP는 비연결성 서비스로 데이터의 전송 순서가 바뀔 수 있다. TCP는 흐름제어와 혼잡제어를 통한 데이터의 정보의 신뢰성이 높지만 UDP는 그렇지 않은 단점이 있다, 하지만 처리할 방식이 많은 TCP는 UDP보다 느리다는 단점이 있다.
         
     - reference
-        - [TCP와 UDP의 특징 및 차이점]https://dev-coco.tistory.com/144
-        - [Network TCP와 UDP특징과 차이점]https://cocoon1787.tistory.com/757
+        - [TCP와 UDP의 특징 및 차이점](https://dev-coco.tistory.com/144)
+        - [Network TCP와 UDP특징과 차이점](https://cocoon1787.tistory.com/757)
