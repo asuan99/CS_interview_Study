@@ -12,17 +12,17 @@
         
         IP 주소 체계의 Network ID와 Host ID를 분리하는 역할
         
-        ![subnet_mask](https://user-images.githubusercontent.com/88701965/227702120-75a7c8c5-3314-479e-b139-fbbe6b948e2c.png)
+        ![subnet_mask](https://user-images.githubusercontent.com/88701965/227703400-c2504bd6-f399-49dd-97a3-38d21483978e.png)
         
     - 기본 서브넷 마스크
         
-        ![default_subnet_mask](https://user-images.githubusercontent.com/88701965/227702114-966ab59a-693e-4598-ba26-fd536cda32e7.png)
+        ![default_subnet_mask](https://user-images.githubusercontent.com/88701965/227703395-39b993fe-37b5-40ea-b73c-82f55cef9450.png)
         
         - 기본 서브넷 마스크를 이용하면 IP 주소의 Network ID와 Host ID를 구분할 수 있다.
         - IP주소에 서브넷 마스크를 AND연산하면 Network ID가 된다.
         - 서브넷 마스크의 Network ID 부분은 1이 연속적으로, Host ID 부분은 0이 연속적으로 있어야 한다.
         
-        ![default_subnet_mask_ex](https://user-images.githubusercontent.com/88701965/227702117-af954695-3dc3-40e1-877e-0c3e763968b9.png)
+        ![default_subnet_mask_ex](https://user-images.githubusercontent.com/88701965/227703398-448759f5-5cac-43da-a3a0-29693de8b1ea.png)
         
         - 192.168.32.0/24 에서 /24의 의미?
             
@@ -49,7 +49,7 @@
     - 예시
         - C 클래스인 192.168.32.0/24를 서브넷 마스크의 bit수를 1 증가시켜서 192.168.32.0/25로 변경하자
             
-            ![subnetting_ex1](https://user-images.githubusercontent.com/88701965/227702121-a54541f6-de2e-4a7d-b24d-a7984c7ea31c.png)
+            ![subnetting_ex1](https://user-images.githubusercontent.com/88701965/227703402-ffcca3cc-fab8-44c4-b1a4-89bacf71b713.png)
             
             - 192.168.32.0/24 → 원래 하나의 네트워크
                 
@@ -71,13 +71,13 @@
                 이때 서브넷 마스크 = 255.255.255.128
                 
             
-            ![subnetting_ex2](https://user-images.githubusercontent.com/88701965/227702122-8a7d11b1-7228-4fda-b98b-11ea35af7251.png)
+            ![subnetting_ex2](https://user-images.githubusercontent.com/88701965/227703403-853a27a8-ba9f-4f81-9683-3beeaabea03a.png)
             
             - 192.168.32.0 : **서브넷1**의 Network Address
             - 192.168.32.1~192.168.32.126 : **서브넷1**의 host 할당 가능한 부분
             - 192.168.32.127 : **서브넷1**의 Broadcast Address
             
-            ![subnetting_ex3](https://user-images.githubusercontent.com/88701965/227702123-74ecc612-a7fd-422b-a72f-be908b0b7e84.png)
+            ![subnetting_ex3](https://user-images.githubusercontent.com/88701965/227703404-8266e5b0-ab97-4545-8e58-82db7e37a21a.png)
 
             - 192.168.32.128 : **서브넷2**의 NetworkAddress
             - 192.168.32.129~192.168.32.254 : **서브넷2**의 host 할당 가능한 부분

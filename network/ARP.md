@@ -20,7 +20,8 @@
         
 - ARP을 활용하여 IP주소에 대응하는 이유는?
     
-    ![why_use_ARP](https://user-images.githubusercontent.com/88701965/227702126-23bf85e8-582b-4ff2-93b7-51901ef792db.png)
+    ![why_use_ARP](https://user-images.githubusercontent.com/88701965/227703405-8c9cd107-9590-4dec-a4b0-a13b2cc371c2.png)
+
     
     - IP주소
         
