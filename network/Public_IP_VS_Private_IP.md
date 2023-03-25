@@ -4,8 +4,7 @@
 
 - IP
     
-    ![IP]
-    (https://github.com/WooJJam/CS_interview_Study/blob/main/network/img/IP.png)
+    ![IP](https://github.com/WooJJam/CS_interview_Study/blob/main/network/img/IP.png)
     
     - IP(Internet Protocol) 란 인터넷에 연결되어 있는 모든 장치들을 식별할 수 있도록 각각의 장비에 부여되는 고유 주소
     - IP 주소의 종류
