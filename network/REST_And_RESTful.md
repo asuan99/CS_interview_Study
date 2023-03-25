@@ -4,7 +4,7 @@
 
 - REST (Representational State Transfer)
     
-    ![REST](REST,%20RESTful%2040a381a400ea42cb942ca3571b1e2cce/Untitled.png)
+    ![REST](https://github.com/WooJJam/CS_interview_Study/blob/main/network/img/REST.png)
     
     - 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 형식
     - 자원을 이름(자원의 표현)으로 구분하여 해당 자원의 상태(정보)를 주고 받는 모든 것을 의미
@@ -40,7 +40,7 @@
     - REST는 HTTP 표준을 기반으로 구현하므로, HTTP를 지원하는 프로그램 언어로 클라이언트, 서버를 구현할 수 있음
 - REST API 설계 기본 규칙
     
-    ![REST_API_design_rules](REST,%20RESTful%2040a381a400ea42cb942ca3571b1e2cce/Untitled%201.png)
+    ![REST_API_design_rules](https://github.com/WooJJam/CS_interview_Study/blob/main/network/img/REST_API_design_rules.png)
     
 - RESTful
     - REST 원리를 따르는 시스템을 RESTful이란 용어로 부름
