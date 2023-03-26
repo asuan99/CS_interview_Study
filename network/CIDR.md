@@ -20,7 +20,7 @@
     
     IP를 표현하는 방식이다. 현재 사용하고 있는 IPv4 체계에서, 4개의 8bit 옥텟을 사용하여 IP를 표현한다. 각 옥텟은 2의 8승 = 256가지의 정보를 가질 수 있다. (0.0.0.0~255.255.255.255)
     
-    ![subnet mask 24 example](https://user-images.githubusercontent.com/99192837/227760895-d86388a2-7fd1-4dda-9b04-ab756a9d0bf3.jpg)
+    <img src="[이미지주소.png](https://user-images.githubusercontent.com/99192837/227760895-d86388a2-7fd1-4dda-9b04-ab756a9d0bf3.jpg)" width="300"/>
     
     CIDR는 subnet mask 값을 통해 host addressing 범위를 지정한다.
     
