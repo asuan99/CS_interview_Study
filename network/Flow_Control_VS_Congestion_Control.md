@@ -10,7 +10,7 @@
     
     Flow Control은 송신자가 수신자에게 너무 많은 데이터를 너무 빠르게 보내는 것을 방지하여 버퍼 오버플로우를 막음으로써 패킷 손실 및 네트워크 성능 저하를 방지한다.
     
-![TCP 패킷 구조](https://user-images.githubusercontent.com/99192837/227760509-0f29290c-cc48-4449-92e2-b9e58fd0e778.png)
+    ![TCP 패킷 구조](https://user-images.githubusercontent.com/99192837/227760509-0f29290c-cc48-4449-92e2-b9e58fd0e778.png)
     
     Transport layer에서 다루는 TCP 패킷의 구조이다. (상위 5줄이 TCP 헤더)
     
