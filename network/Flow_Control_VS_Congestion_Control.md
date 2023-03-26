@@ -10,13 +10,12 @@
     
     Flow Control은 송신자가 수신자에게 너무 많은 데이터를 너무 빠르게 보내는 것을 방지하여 버퍼 오버플로우를 막음으로써 패킷 손실 및 네트워크 성능 저하를 방지한다.
     
-    ![TCP 패킷 구조.png](Flow%20Control%E1%84%80%E1%85%AA%20Congestion%20Control%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%86%E1%85%A7%E1%86%BC%20695e9ee5dc214bfd8df2bfeb13d1cfbd/TCP_%25ED%258C%25A8%25ED%2582%25B7_%25EA%25B5%25AC%25EC%25A1%25B0.png)
+![TCP 패킷 구조](https://user-images.githubusercontent.com/99192837/227760509-0f29290c-cc48-4449-92e2-b9e58fd0e778.png)
     
     Transport layer에서 다루는 TCP 패킷의 구조이다. (상위 5줄이 TCP 헤더)
     
     - 수신자는 TCP 헤더에 있는 ‘Window Size(RWND)’ 공간에 수용할 수 있는 버퍼 크기를 적어 송신자에게 알려준다.
-    - 송신자는 수신자가 수용할 수 있는 만큼의 데이터를 전송한다.
-    
+    - 송신자는 수신자가 수용할 수 있는 만큼의 데이터를 전송한다.    
     
     
     ```
@@ -36,8 +35,9 @@
     
     네트워크가 혼잡할 경우, 네트워크로 패킷을 보낼 경우 패킷이 손실될 수 있으며 네트워크를 더 악화시킬 수 있다. 따라서, 네트워크가 혼잡할 경우 송신자 측에서 패킷을 내보내는 양을 조절해야 한다. 이것이 바로 Congestion Control이다.
     
-    ![congestion control.png](Flow%20Control%E1%84%80%E1%85%AA%20Congestion%20Control%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%86%E1%85%A7%E1%86%BC%20695e9ee5dc214bfd8df2bfeb13d1cfbd/congestion_control.png)
-    
+
+    ![congestion control](https://user-images.githubusercontent.com/99192837/227760531-ebd1748b-e646-4efe-ad7a-5d177007a310.png)
+
     - 송신자가 네트워크 상에 패킷을 보내는 Window Size(CWND)는 초기에 1MSS이다.
     - Slow Start: cwnd 크기를 2배씩 증가시킨다. 네트워크 상에 보내는 패킷의 양을 확 늘린다.
     - Congestion Avoidance: cwnd 크기가 정해놓은 thresh에 도달하면 cwnd 크기를 1씩 증가시킨다. 네크워크 상에 보내는 패킷의 양을 찔끔 늘린다.
