@@ -16,7 +16,7 @@
     
     CIDR(Classless Inter-Domain Routing, 사이더)는 클래스 없는 도메인 간 라우팅 기법으로 IP 주소 할당 방법이다.
     
-    <img src="https://user-images.githubusercontent.com/99192837/227760888-98d999c7-9a49-4005-af76-3a3a560df0b2.png" width="200"/>
+    <img src="https://user-images.githubusercontent.com/99192837/227760888-98d999c7-9a49-4005-af76-3a3a560df0b2.png" width="500"/>
     
     IP를 표현하는 방식이다. 현재 사용하고 있는 IPv4 체계에서, 4개의 8bit 옥텟을 사용하여 IP를 표현한다. 각 옥텟은 2의 8승 = 256가지의 정보를 가질 수 있다. (0.0.0.0~255.255.255.255)
     
