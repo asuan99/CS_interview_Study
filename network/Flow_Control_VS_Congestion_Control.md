@@ -1,7 +1,5 @@
 # Flow Control과 Congestion Control의 차이를 설명해보세요.
 
----
-
 - 자료조사
     
     ## Flow Control이란?
