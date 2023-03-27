@@ -10,11 +10,11 @@
     
     메시지 포멧
     
-    ![Untitled](CS_Study%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3&%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB(3%2026)%200fd793a76add473fa67dc86d93d816ac/ICMP_set.png)
+    ![Untitled](img/ICMP_set.png)
     
     대표적인 Type의 종류
     
-    ![Untitled](CS_Study%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3&%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB(3%2026)%200fd793a76add473fa67dc86d93d816ac/ICMP_EX.png)
+    ![Untitled](img/ICMP_EX.png)
     
     - 예시
         
