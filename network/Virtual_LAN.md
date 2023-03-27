@@ -8,15 +8,15 @@
     
     - 예시
         
-        ![Untitled](CS_Study%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3&%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB(3%2026)%20edb795d15b05476ba05b2ddbaf5d3dab/Untitled.png)
+        ![Untitled](img/VLAN_EX1.png)
         
         - 24포트의 switch의 불필요한 이용
         
-        ![Untitled](CS_Study%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3&%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB(3%2026)%20edb795d15b05476ba05b2ddbaf5d3dab/Untitled%201.png)
+        ![Untitled](img/VLAN_EX2.png)
         
         - 하나의 스위치로 구현 할 수 없을까?
         
-        ![Untitled](CS_Study%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3&%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB(3%2026)%20edb795d15b05476ba05b2ddbaf5d3dab/Untitled%202.png)
+        ![Untitled](img/VLAN_EX3.png)
         
         - 데이터 프레임의 헤더에 그룹 번호를 붙인다.
         
