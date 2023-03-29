@@ -4,7 +4,7 @@
 
 - 프로세스
     
-    ![Process](%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3,%20%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%89%E1%85%B3%E1%84%85%E1%85%A6%E1%84%83%E1%85%B3%20ec76e2ed235d4ccc853c609d1cce3a2a/Untitled.png)
+    ![Process](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Process.png)
     
     - CPU(프로세서)에 의해 실행되는 프로그램
     - 프로그램
@@ -13,7 +13,7 @@
         - 메인 메모리에 프로그램을 올리고 메모리에서 코드들을 한줄씩 CPU에 전달하여 실행
         - 메모리에 올라가서 실행 중인 프로그램을 프로세스
     
-    ![Process_Structure](%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3,%20%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%89%E1%85%B3%E1%84%85%E1%85%A6%E1%84%83%E1%85%B3%20ec76e2ed235d4ccc853c609d1cce3a2a/Untitled%201.png)
+    ![Process_Structure](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Process_Structure.png)
     
     - Code(Text) 영역
         - Code 영역은 실행 명령을 포함하는 코드들이 들어가는 부분
@@ -31,10 +31,10 @@
 - 스레드
     - 프로그램 내에서 실행되는 흐름의 단위
         
-        ![Threads](%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3,%20%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%89%E1%85%B3%E1%84%85%E1%85%A6%E1%84%83%E1%85%B3%20ec76e2ed235d4ccc853c609d1cce3a2a/Untitled%202.png)
+        ![Threads](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Threads.png)
         
     
-    ![Threads_Structure](%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3,%20%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%89%E1%85%B3%E1%84%85%E1%85%A6%E1%84%83%E1%85%B3%20ec76e2ed235d4ccc853c609d1cce3a2a/Untitled%203.png)
+    ![Threads_Structure](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Threads_Structure.png)
     
     - 프로세스 내에서 각각 Stack 만 따로 할당 받고 Code, Data, Heap 영역은 공유
     - 한 프로세스 내에서 동작되는 여러 실행의 흐름으로, 프로세스 내의 주소 공간이나 자원들(heap 공간 등)을 같은 프로세스 내에 스레드끼리 공유하면서 실행
@@ -46,7 +46,7 @@
     - 메모리 영역이 서로 독립적이기 때문에 작업량이 많다면 Context Switching이 자주 발생하여 오버헤드가 발생하여 성능저하가 발생 할 수 있음
 - 멀티 스레드
     
-    ![Multi_Threads](%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3,%20%E1%84%86%E1%85%A5%E1%86%AF%E1%84%90%E1%85%B5%20%E1%84%89%E1%85%B3%E1%84%85%E1%85%A6%E1%84%83%E1%85%B3%20ec76e2ed235d4ccc853c609d1cce3a2a/Untitled%204.png)
+    ![Multi_Threads](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Multi_Threads.png)
     
     - 하나의 프로그램을 여러 개의 스레드로 구성하는 방식
     - Stack을 제외한 자원들을 공유하기 때문에 Context Switching 시에 캐시를 비울 필요가 없어 리소스가 절약됨
