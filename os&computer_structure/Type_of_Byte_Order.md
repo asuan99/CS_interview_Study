@@ -9,7 +9,7 @@
     - Power PC, ARM: 빅엔디안
 - MSB와 LSB
     
-    ![MSB_and_LSB](Byte%20Order%20d44a119096b5498ea018ff8c62a1ea37/Untitled.png)
+    ![MSB_and_LSB](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/MSB_and_LSB.png)
     
     - 데이터를 Bit 단위로 놓고 봤을 때 사용되는 용어
     - 99를 2진수로 변환하면 01100011 여기서 가장 왼쪽의 비트를 MSB 가장 오른쪽의 비트를 LSB
@@ -20,27 +20,27 @@
         
 - Big-endian(빅엔디안)
     
-    ![Big_Endian](Byte%20Order%20d44a119096b5498ea018ff8c62a1ea37/Untitled%201.png)
+    ![Big_Endian](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Big_Endian.png)
     
     - 낮은 주소에 데이터의 높은 바이트부터 저장하는 방식
     - 네트워크에서 데이터를 전송할 때 주로 사용됨
     - 평소에 숫자나 문자를 읽는 방식과 같은 선형 방식. 메모리에 저장된 순서 그대로 읽을 수 있기 때문에 이해하기 쉬움
     
-    ![Big_Endian_Example](Byte%20Order%20d44a119096b5498ea018ff8c62a1ea37/Untitled%202.png)
+    ![Big_Endian_Example](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Big_Endian_Example.png)
     
 - Little-endian(리틀엔디안)
     
-    ![Little_Endian](Byte%20Order%20d44a119096b5498ea018ff8c62a1ea37/Untitled%203.png)
+    ![Little_Endian](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Little_Endian.png)
     
     - 낮은 주소에 데이터의 낮은 바이트부터 저장하는 방식
     - 마이크로프로세서에서 주로 사용됨
     - 빅 엔디안 방식과는 반대로 거꾸로 읽는 방식, 대부분의 인텔 CPU 계열에서는 이러한 방식 사용
     
-    ![Little_Endian_Example](Byte%20Order%20d44a119096b5498ea018ff8c62a1ea37/Untitled%204.png)
+    ![Little_Endian_Example](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Little_Endian_Example.png)
     
 - 답안
     
-    ![Big_Endian_and_Little_Endian](Byte%20Order%20d44a119096b5498ea018ff8c62a1ea37/Untitled%205.png)
+    ![Big_Endian_and_Little_Endian](https://github.com/WooJJam/CS_interview_Study/blob/main/os%26computer_structure/img/Big_Endian_and_Little_Endian.png)
     
     - 바이트 오더란 데이터가 저장되는 순서를 의미한다. 바이트 오더의 방식에는 빅엔디안과 리틀엔디안이 있으며 빅엔디안은 주로 네트워크에서 사용되며 낮은 주소에 데이터의 높은 바이트부터 저장하는 방식이고, 리틀엔디안은 주로 마이크로프로세서에서 사용되며 낮은 주소에 데이터의 낮은 바이트부터 저장하는 방식이다.
 - 참고자료
