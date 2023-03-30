@@ -49,8 +49,8 @@ Unix와 Linux는 유사하게 작동을 하나 코드적으로나 구조적으�
 
 ## Ref
 
-[https://ko.wikipedia.org/wiki/리눅스](https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4)
+[Wikipidia : Linux](https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4)
 
-[https://ko.wikipedia.org/wiki/UNIX](https://ko.wikipedia.org/wiki/UNIX)
+[Wikipidia : UNIX](https://ko.wikipedia.org/wiki/UNIX)
 
-[https://ko.wikipedia.org/wiki/유닉스_계열](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EA%B3%84%EC%97%B4)
+[Wikipidia : 유닉스 계열](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EA%B3%84%EC%97%B4)
