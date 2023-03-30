@@ -35,7 +35,7 @@ User mode로 실행되는 응용프로그램이 프로세서 제어나 파일 �
     2. System call을 통해 user mode에서 kernel mode로 변경 후 kernel에서 명령을 처리
     3. Kelnel에서 처리가 끝나면 user mode로 다시 전환되며 응용 프로그램이 계속 실행됨
 
-[https://t1.daumcdn.net/cfile/tistory/25333241535CCEE810](https://t1.daumcdn.net/cfile/tistory/25333241535CCEE810)
+![https://t1.daumcdn.net/cfile/tistory/25333241535CCEE810](https://t1.daumcdn.net/cfile/tistory/25333241535CCEE810)
 
 - System call의 종류
 - 프로세스 컨트롤
@@ -76,8 +76,8 @@ User mode로 실행되는 응용프로그램이 프로세서 제어나 파일 �
 
 ## Ref
 
-[https://ko.wikipedia.org/wiki/시스템_호출](https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C_%ED%98%B8%EC%B6%9C)
+[Wikipidia : 시스템 호출](https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C_%ED%98%B8%EC%B6%9C)
 
-[https://fjvbn2003.tistory.com/306](https://fjvbn2003.tistory.com/306)
+[[운영체제] 시스템 콜 (System Call)](https://fjvbn2003.tistory.com/306)
 
-[https://velog.io/@nnnyeong/OS-시스템-콜-System-Call](https://velog.io/@nnnyeong/OS-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C-System-Call)
+[[OS] 시스템 콜, System Call](https://velog.io/@nnnyeong/OS-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C-System-Call)
