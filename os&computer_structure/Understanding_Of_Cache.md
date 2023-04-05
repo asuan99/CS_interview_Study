@@ -9,7 +9,7 @@
 Cache Memory는 메인 메모리와 CPU간의 데이터 속도 향상을 위한 중간 버퍼 역할을 하는 CPU내 또는 외에 존재하는 메모리이다. 전체 시스템의 성능의 개선을 시킬 수 있는 메모리이다.
 
 **즉, 속도가 빠른 장치와 느린 장치에서 속도 차이에 따른 병목 현상을 줄이기 위한 메모리를 말한다.**
-
+ ![Ex_Of_Cache](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Ex_Of_Cache.png?raw=true)
 <aside>
 💡 캐시는 보관이나 저장의 의미이다.
 
@@ -173,7 +173,8 @@ C 프로그램 언어에서 예를 들면 int a[10] 이라고 선언을 한다�
     - ex) 16MByte의 메인 메모리를 가지는 시스템에 대하여 64KByte의 캐시 메모리가 있다고 가정
         - 우선 전체의 메인 메모리에 대하여 캐시 사이즈 단위로 나누게 되고 이렇게 나뉘어진 각각의 블록들에 대하여 태그(Tag) 값을 매기게 된다.
         - 즉, 아래의 예의 경우 64KByte의 캐시 사이즈를 가지므로 64KByte 단위로 블록을 나누고, 각각의 블록들은 하나의 태그 값으로 나타내게 되므로 메인 메모리 주소 0~0x00FFFF까지는 태그 값 00, 메인 메모리 주소 0x010000~ 0x01FFFF까지는 태그 값 01과 같은 식이 되는 것이다.
-    
+
+     ![Direct_Mapping](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Direct_Mapping.png?raw=true)
     
     - **메모리 주소 중에 가장 뒷부분(붉은색)은 블럭의 크기**를 의미한다. 지금 블럭의 크기가 4이므로 뒤의 두자리를 사용하여 블럭의 크기를 표현하였다. 그리고 이 영역은 블럭에 몇 번째에 원하는 데이터가 있는지 보여주는 지표가 되어 준다. 만일 위의 예에서 붉은 영역이 01이라면 블록의 두 번째 내용을 CPU에서 요청한 것이다.
     - **같은 라인에 위치하는 데이터는 파란색 색칠한 영역에 의하여 구별**이 가능하다.예를 들면 메모리에 첫번째 요소 00000과 다섯번재 주소 00100은 캐시내에 같은 위치에 자리잡고 있어서 구별이 필요한데, 앞의 세자리 000과 001로 구별을 할 수 있다.
@@ -184,7 +185,8 @@ C 프로그램 언어에서 예를 들면 int a[10] 이라고 선언을 한다�
     - 직접 매핑이 동일한 라인 번호의 주소를 매핑할 수 없다는 단점은 캐시의 성능을 매우 저하시킬 수 있으며 이에 대한 개선으로 **캐시의 태그 필드를 확장**하여 캐시의 어떤 라인과도 무관하게 매핑 시킬 수 있는 매핑 방법이 바로 어소시에이티브 매핑(associative mapping) 방식이다.
     - 어떤 주소든지 동시에 매핑시킬 수 있어 높은 히트율을 가질 수 있다는 장점을 가지고 있다.
 
-    
+    ![Associative_Mapping](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Associative_Mapping.png?raw=true)
+
     - **캐시에 저장된 데이터들은 메인 메모리의 순서와는 아무런 관련이 없다.**
     - 캐시를 전부 뒤져서 태그가 같은 데이터가 있는지 확인해야한다. 따라서 병렬 검사를 위해 **복잡한 회로를 가지고 있는 단점(시간이 오래걸림)**이 있다.
     - **적중률이 높다는 장점이 있다**.
@@ -193,7 +195,8 @@ C 프로그램 언어에서 예를 들면 int a[10] 이라고 선언을 한다�
 - **셋 어소시에이티브 매핑 (set associative mapping)**
     - 어소시에이티브 매핑 방식의 장점을 취하고, 단점을 줄이기 위한 절충안으로 나온것이 셋 어소시에이티브 매핑(set associative mapping) 방식이며, 많은 마이크로프로세서들이 이 방식을 택하고 있다.
     
-    
+    ![Set_Associative_Mapping](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Set_Associative_Mapping.png?raw=true)
+
     - 각각의 라인들은 하나의 세트에 속해 있다.
     - 세트 번호를 통해 영역을 탐색하므로 연관 매핑의 병렬 탐색을 줄일 수 있다.
     그리고 모든 라인에 연관 매핑처럼 무작위로 위치하여 직접매핑의 단점도 보완하였다.

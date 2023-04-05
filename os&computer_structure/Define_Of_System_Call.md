@@ -6,7 +6,7 @@
 
 - 운영체제 서비스
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec98eb1e-c6b6-4761-8c09-60eb470dd905/Untitled.png)
+    ![Os_Service](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Os_Service.png?raw=true)
     
     - **사용자 인터페이스(User Interface)** : 사용자 인터페이스는 크게 명령어 단위로 처리되는 **명령어 라인 인터페이스(CLI, Command-Line Interface)**와 **그래피컬 사용자 인터페이스(GUI, Graphical User Interface)**로 나뉜다. 우리가 도스나 윈도우 커맨드창 혹은 리눅스 터미널로 명령어를 입력해 파일이나 명령을 실행하는 것을 CLI, 윈도우나 Mac OS X 처럼 마우스를 통해 화면을 클릭하여 실행하는 방식을 GUI 방식이라고 한다.
     - **프로그램 실행(Program execution) :** 운영체제를 통해 프로그램을 메모리에 올려 프로세스로 만들고 실행시킬 수 있어야 한다.
@@ -87,6 +87,7 @@
     프로그램은 유저레벨의 함수들 만으로는 많은 기능을 구현하기 힘들기 때문에, 커널(kernel)의 도움을 반드시 받아야 합니다. 따라서 시스템 콜이 반드시 필요합니다. 시스템 콜은 운영 체제의 커널이 제공하는 서비스에 대해, 응용 프로그램의 요청에 따라 커널에 접근하기 위한 인터페이스입니다. 보통 C나 C++과 같은 고급 언어로 작성된 프로그램들은 직접 시스템 호출을 사용할 수 없기 때문에 고급 API를 통해 시스템 호출에 접근하게 하는 방법입니다. 따라서 커널 영역의 기능을 사용자 모드가 사용 가능하게,  즉 프로세스가 하드웨어에 직접 접근해서 필요한 기능을 사용할 수 있게 해줍니다.
     
 -질문
+    ![Call_Open](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Call_Open.png?raw=true)
     ### 경우에 따라 시스템 콜이 발생했을 때, 추가적인 정보가 필요할 수도 있다. 그러한 경우 정보가 담긴 매개변수들을 OS에 어떻게 전달할까?
 
     - 매개변수를 CPU 레지스터에 전달한다.
