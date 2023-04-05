@@ -6,7 +6,7 @@
 
 - 운영체제 서비스
     
-    ![Os_Service](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Os_Service.png?raw=true)
+    ![OS_Service](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Os_Service.png?raw=true)
     
     - **사용자 인터페이스(User Interface)** : 사용자 인터페이스는 크게 명령어 단위로 처리되는 **명령어 라인 인터페이스(CLI, Command-Line Interface)**와 **그래피컬 사용자 인터페이스(GUI, Graphical User Interface)**로 나뉜다. 우리가 도스나 윈도우 커맨드창 혹은 리눅스 터미널로 명령어를 입력해 파일이나 명령을 실행하는 것을 CLI, 윈도우나 Mac OS X 처럼 마우스를 통해 화면을 클릭하여 실행하는 방식을 GUI 방식이라고 한다.
     - **프로그램 실행(Program execution) :** 운영체제를 통해 프로그램을 메모리에 올려 프로세스로 만들고 실행시킬 수 있어야 한다.
