@@ -91,7 +91,7 @@
 
 - 프로세스는 4개 시간 할당량은 3
 
-![Ex_Of_RR1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43e37206-a4de-4e42-9d68-09e04736a879/Ex_Of_RR1.png?raw=true)
+![Ex_Of_RR1](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Ex_Of_RR1.png?raw=true)
 
 - 처음에는 프로세스 A만 도착했으므로 바로 디스패치하여 실행시킨다.
   - 시간 할당량 3이 지날 동안 프로세스 A는 계속 실행 중이고 준비 큐에는 프로세스 B,C,D가 순서대로 도착하여 기다리고 있다.
@@ -101,15 +101,15 @@
 - 다시 시간 할당량 3이 지나도 프로세스 D는 종료하지 못하여 RR 스케줄링은 프로세스 D를 준비 큐의 맨 뒤로 배치시키고, 다음 차례인 프로세스 A를 디스패치하여 실행시킨다.
 - 시간 할당량 3이 지나면 A도 종료가 되고, 마지막으로 프로세스 D를 디스패치하여 실행시키면 1만큼 지난 뒤 종료
 
-![Ex_Of_RR1_Answer](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43e37206-a4de-4e42-9d68-09e04736a879/Ex_Of_RR1_Answer.png?raw=true)
+![Ex_Of_RR1_Answer](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Ex_Of_RR1_Answer.png?raw=true)
 
 ---
 
 ### 4. RR 스케줄링의 예시 2 - 도착시간이 다를 때
 
-![Ex_Of_RR2](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43e37206-a4de-4e42-9d68-09e04736a879/Ex_Of_RR2.png?raw=true)
+![Ex_Of_RR2](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Ex_Of_RR2.png?raw=true)
 
-![Ex_Of_RR2_Answer](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43e37206-a4de-4e42-9d68-09e04736a879/Ex_Of_RR2_Answer.png?raw=true)
+![Ex_Of_RR2_Answer](https://github.com/JungMunGyu/CS_interview_Study/blob/main/os&computer_structure/img/Ex_Of_RR2_Answer.png?raw=true)
 
 - 답안
 
@@ -123,6 +123,7 @@
     - 에이징 기법을 사용 : 시간이 지날수록 우선순위를 높여줌
 
 - Reference
+
   [Round-Robin(RR)이란? , CPU-Scheduling들](https://jwprogramming.tistory.com/17)
 
   [[운영체제]RR(Round Robin라운드로빈)순환할당스케줄링, time quantum 타임퀀텀](https://jhnyang.tistory.com/entry/운영체제RRRound-Robin라운드로빈순환할당스케줄링-time-quantum-타임퀀텀)
