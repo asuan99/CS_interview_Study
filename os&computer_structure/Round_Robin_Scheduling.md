@@ -11,13 +11,13 @@
     - 우선순위가 높은 프로세스들이 계속 들어오는 경우 Overhead
 - RR 스케줄링
     
-    ![RR_Scheduling_Result](%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%83%E1%85%B3%E1%84%85%E1%85%A9%E1%84%87%E1%85%B5%E1%86%AB(Round-Robin)%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%209049a6472e054592bcc798f87777e2ac/Untitled.png)
+    ![RR_Scheduling_Result](img/RR_Scheduling_Result.png)
     
     - 대화형 시스템에서 사용되는 선점 스케줄링 방식
     - 프로세스가 도착한 순서대로 프로세스를 디스패치 하지만 정해진 시간 할당량에 의해 실행을 제한
     - 시간 할당량을 매 프로세스에 주고 할당된 시간 안에 완료되지 못한 프로세스는 준비 큐의 맨 뒤에 배치되도록 하여 CPU를 독점하지 않고 공평하게 이용
     
-    ![RR_SchedulingEX](%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%83%E1%85%B3%E1%84%85%E1%85%A9%E1%84%87%E1%85%B5%E1%86%AB(Round-Robin)%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%209049a6472e054592bcc798f87777e2ac/Untitled%201.png)
+    ![RR_SchedulingEX](img/RR_SchedulingEX.png)
     
 - 답안
     
