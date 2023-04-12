@@ -16,7 +16,7 @@
 
 </aside>
 
-![Location_Of_ISA](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43e37206-a4de-4e42-9d68-09e04736a879/Location_Of_ISA.png)
+![Location_Of_ISA](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43e37206-a4de-4e42-9d68-09e04736a879/Location_Of_ISA.png?raw=true)
 
 - ISA는 최하위 레벨의 프로그래밍 인터페이스로, 프로세서가 실행할 수 있는 모든 명령어들을 포함한다.
 - 명령어 집합, 곧 명령어 집합 구조는 자료형, 명령어, 레지스터, 어드레싱 모드, 메모리 구조, 인터럽트, 예외 처리, 외부 입출력을 포함한 프로그래밍관련 컴퓨터 아키텍처의 일부이다.
