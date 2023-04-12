@@ -25,12 +25,16 @@
 
 - Round Robin 스케줄링에 대해 설명해주세요
 
+- FIFP와 SJF 스케쥴링 기법이 컴퓨터에 적합하지 않은 이유와 그 대안책에 대해 설명해주세요
+
 - Starvation의 해결방안에 대해 설명해주세요
 
 - Monolithic kernel과 Micro Kernel을 비교해 설명해주세요 
 
 ---
 ### Processor Architecture
+
+- ISA에 대해 설명해주세요
 
 - MIPS 명령어는 어떤 형식으로 구성되며, 각 명령어의 핵심 필드에 대해 설명해주세요
 
